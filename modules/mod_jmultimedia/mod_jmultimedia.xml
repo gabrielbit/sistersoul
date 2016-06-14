@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install type="module" version="1.5.0">
+	<name>JMultimedia</name>
+	<author>3DEN - Open Software</author>
+	<creationDate>June 2008</creationDate>
+	<copyright>(C) 2008 3DEN - Open Source. All rights reserved</copyright>
+	<license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
+	<authorEmail>edendroid@gmail.com</authorEmail>
+	<authorUrl>http://www.3den.org/</authorUrl>
+	<version>1.1</version>
+	<description><![CDATA[
+		This module should be used in cobination to JMultimedia component to add dinamical tumbnaii lists in any position
+	]]></description>
+	<files>
+      <filename module="mod_jmultimedia">mod_jmultimedia.php</filename>
+      <filename>helper.php</filename>	  
+      <filename>index.html</filename>
+      <folder>tmpl</folder>
+	</files>	
+	<params>
+		<param name="mode" type="list" default="auto" label="Display" description="Select what shall be shown">
+			<option value="auto">Automatic</option>		
+			<option value="random">Random</option>		
+			<option value="popular">Most Popular</option>
+			<option value="newer">Newer</option>
+			<option value="related">Related</option>	
+			<option value="toprated">Top Rated</option>
+		</param>
+		<param name="layout" type="list" default="compact" label="Layout" description="The layout to display the List">
+			<option value="default">Rows</option>		
+			<option value="compact">Gallery</option>				
+		</param>
+		<param name="count" type="text" size="2" default="5" label="Count" description="The number of items to display (default 5)" />		
+	</params>
+	
+	<!-- Advancede -->
+	<params group="advanced">
+		<param name="filter_category" type="radio" default="1" label="Filter Category" description="Show olny items from the same category">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>		
+		<!-- Defaul -->
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="cache" type="list" default="1" label="Caching" description="Select whether to cache the content of this module">
+			<option value="1">Use global</option>
+			<option value="0">No caching</option>
+		</param>
+		<param name="cache_time" type="text" default="900" label="Cache Time" description="The time before the module is recached" />
+		<param name="@spacer" type="spacer" default="" label="" description="" />			
+		<param name="moduleclass_sfx" type="text" default="" label="Module Class Suffix" description="PARAMMODULECLASSSUFFIX" />
+	</params>
+</install>

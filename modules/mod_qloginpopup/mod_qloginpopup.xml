@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install type="module" version="1.5.0" method="upgrade">
+	<name>QLogin Popup</name>
+	<author>NetQ Creative Software</author>
+	<creationDate>Dec 07, 2010</creationDate>
+	<copyright>Copyright (C) 2008 - 2010 NetQ Creative Software. All rights reserved.</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<authorEmail>service@netqcreative.com</authorEmail>
+	<authorUrl>http://www.netqcreative.com</authorUrl>
+	<version>1.5.1</version>
+	<description>MODULE_DESCRIPTION</description>
+	<files>
+		<filename module="mod_qloginpopup">mod_qloginpopup.php</filename>
+		<filename>index.html</filename>
+		<filename>mod_qloginpopup.php</filename>
+		<filename>helper.php</filename>
+		<filename>mod_qloginpopup.xml</filename>
+		
+		<filename>css/index.html</filename>
+		<filename>css/qloginpopup.css</filename>
+		
+		<filename>images/close.gif</filename>
+		<filename>images/index.html</filename>
+		<filename>images/login1.jpg</filename>
+		<filename>images/preview.JPG</filename>
+		<filename>images/logout.png</filename>
+		<filename>images/loginf1.png</filename>
+		<filename>images/login.png</filename>
+		
+		<filename>tmpl/index.html</filename>
+		<filename>tmpl/default.php</filename>
+	</files>
+	<languages>
+		<language tag="en-GB">languages/en-GB.mod_qloginpopup.ini</language>
+	</languages>
+	<params>
+		<param name="moduleclass_sfx" type="text" default="" label="MODULE_CLASS_SUFFIX_LABEL" description="MODULE_CLASS_SUFFIX_DESCRIPTION" />
+		<param name="login" type="menuitem" default="" disable="separator" label="LOGIN_REDIRECTION_URL_LABEL" description="LOGIN_REDIRECT_URL_DESCRIPTION" state="1" />
+		<param name="logout" type="menuitem" default="" disable="separator" label="LOGOUT_REDIRECTION_URL_LABEL" description="LOGOUT_REDIRECT_URL_DESCRIPTION" state="1" />
+		<param name="usesecure" type="radio" default="0" label="ENCRYPT_LOGIN_FORM_LABEL" description="ENCRYPT_LOGIN_FORM_DESCRIPTION">
+			<option value="0">ENCRYPT_LOGIN_FORM_NO</option>
+			<option value="1">ENCRYPT_LOGIN_FORM_YES</option>
+		</param>
+	</params>
+</install>

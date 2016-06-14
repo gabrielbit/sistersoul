@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install type="module" version="1.5.0">
+	<name>JFancyUpload</name>
+	<author>JProduction</author>
+	<creationDate>March 2010</creationDate>
+	<copyright>Copyright (C) 2005 - 2010 JProduction - GNU General Public License - http://www.gnu.org/licenses</copyright>
+	<license>GPL - http://www.gnu.org/licenses</license>
+	<version>2.03</version>
+	<description>JFancy Upload</description>
+
+	<files>
+		<filename module="mod_jfancy">index.html</filename>
+		<filename module="mod_jfancy">mod_jfancy.php</filename>
+		<filename module="mod_jfancy">mod_jfancy.xml</filename>
+
+		<filename module="mod_jfancy">tmpl/index.html</filename>
+		<filename module="mod_jfancy">tmpl/default.php</filename>
+        
+		<filename module="mod_jfancy">css/index.html</filename>
+		<filename module="mod_jfancy">css/jfancy.css</filename>
+
+		<filename module="mod_jfancy">js/index.html</filename>        
+		<filename module="mod_jfancy">js/mootools-1.2-core-nc.js</filename>
+		<filename module="mod_jfancy">js/Swiff.Uploader.js</filename>
+		<filename module="mod_jfancy">js/Fx.ProgressBar.js</filename>
+		<filename module="mod_jfancy">js/FancyUpload2.js</filename>
+        
+
+        <filename module="mod_jfancy">assets/failed.png</filename>
+        <filename module="mod_jfancy">assets/success.png</filename>
+        <filename module="mod_jfancy">assets/file.png</filename>
+        <filename module="mod_jfancy">assets/uploading.png</filename>
+        <filename module="mod_jfancy">assets/progress-bar/bar.gif</filename>
+        <filename module="mod_jfancy">assets/progress-bar/progress.gif</filename>
+
+        
+        <filename module="mod_jfancy">Swiff.Uploader.swf</filename>
+        <filename module="mod_jfancy">script.js</filename>
+        <filename module="mod_jfancy">JSON.php</filename>
+        <filename module="mod_jfancy">mootools-trunk.js</filename>
+        <filename module="mod_jfancy">script.php</filename>
+    </files>
+    
+	<languages>
+		<language tag="en-GB">language/en-GB/en-GB.mod_jfancy.ini</language>
+		<language tag="it-IT">language/it-IT/it-IT.mod_jfancy.ini</language>        
+	</languages>
+    
+	
+	<params>
+		<param size="12" name="updir" type="text" default="images/" label="UPLOADDIR" description="UPLOADDIR_DESC" />
+	
+		<param size="12" name="mblimit" type="text" default="10" label="MBLIMIT" description="MBLIMIT_DESC" />
+		
+        <param size="28" name="imgtt" type="text" default="*.jpg,*.jpeg,*.gif,*.png" label="IMGTYPES" description="IMGTYPES_DESC" />
+
+
+		<param name="divstyle" type="textarea" rows="4" cols="45" default="" description="STYLEAREA_DESC" label="STYLEAREA" />
+
+
+		<param name="mootoolshack" type="radio" default="1" label="MOOTOOLHACK" description="MOOTOOLHACK_DESC">
+		  <option value="0">No</option>
+		  <option value="1">Yes</option>
+		</param>
+
+
+	</params>
+</install>

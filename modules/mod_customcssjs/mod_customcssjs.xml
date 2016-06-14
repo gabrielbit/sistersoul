@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install type="module" version="1.5.0">
+ <name>Custom Js Css Html</name>
+ <author>Saran Chamling</author>
+ <creationDate>19 Fev, 2011</creationDate>
+ <copyright>Copyright (C) 2011 http://www.saaraan.com. All rights reserved.</copyright>
+ <license>http://www.gnu.org/licenses/gpl-3.0-standalone.html</license>
+ <version>1.0</version>
+ <description>Simple module to include extra CSS or Javascripts easily in your joomla pages, Just as the custom HTML module allows you to insert HTML on a specific page, this module allowes you to include extra html, css and javascripts.</description>
+ <files>
+	  <filename module="mod_customcssjs">mod_customcssjs.php</filename>
+	  <filename>mod_customcssjs.xml</filename>
+	  <filename>index.html</filename>
+ </files>
+ <params>
+<param name="headstuff" type="textarea" default=""  cols="70" rows="6" label="Custom Tags" description="Custom Tags in head section of the page" />
+<param name="extracss" type="textarea" default=""  cols="70" rows="6" label="Extra Css" description="Only include css codes, eg : .class1 {background:#000000}.class2 {background:#FFFFFF}" />
+<param name="extrajs" type="textarea" default=""  cols="70" rows="6" label="Extra Javascripts" description="Only include declarations, eg : window.addEvent('domready', function() {}));" />
+<param name="cssfiles" type="textarea" default=""  cols="70" rows="6" label="URL to CSS files" description="Enter URLs of CSS files, URL per line" />
+<param name="jsfiles" type="textarea" default=""  cols="70" rows="6" label="URL to Javascript files" description="Enter URLs of JS files, URL per line" />
+<field name="@spacer" type="spacer" default="" label="" description="" />
+<param name="extrahtml" type="textarea" default=""  cols="70" rows="6" label="HTML or TEXT" description="You can put HTML or just Text in your pages." />
+
+</params>
+<config>
+<fields name="params">
+<fieldset name="basic" label="Custom Scripts">
+<field name="headstuff" type="textarea" default=""  cols="70" rows="6" label="Custom Tags" description="Custom Tags in head section of the page " />
+<field name="extracss" type="textarea" default=""  cols="70" rows="6" label="Extra Css" description="Only include css codes, eg : .class1 {background:#000000}.class2 {background:#FFFFFF}" />
+<field name="extrajs" type="textarea" default=""  cols="70" rows="6" label="Extra Javascripts" description="Only include declarations, eg : window.addEvent('domready', function() {}));" />
+<field name="cssfiles" type="textarea" default=""  cols="70" rows="6" label="URL to CSS files" description="Enter URLs of CSS files, URL per line" />
+<field name="jsfiles" type="textarea" default=""  cols="70" rows="6" label="URL to Javascript files" description="Enter URLs of JS files, URL per line" />
+<param name="@spacer" type="spacer" default="" label="" description="" />
+<feild name="extrahtml" type="textarea" default=""  cols="70" rows="6" label="HTML or TEXT" description="You can put HTML or just Text in your pages." />
+</fieldset>
+</fields>
+</config>
+</install>

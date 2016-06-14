@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install version="1.5" type="plugin" group="content">
+    <name>xP MP3 Gallery</name>
+    <author>ThemeXpert</author>
+    <authoremail>themexpert@gmail.com</authoremail>
+    <authorurl>http://www.themexpert.com</authorurl>
+    <copyright>Copyright (C) 2010 - 2011 ThemeXpert. All rights reserved.</copyright>
+    <creationDate>04/23/10</creationDate>
+	<version>1.4</version>
+    <description>Simple MP3 Gallery is a MP3 gallery plugin for joomla. Its very easy to use. just write {mp3_gallery}folderpath{/mp3_gallery} thats it. Simple MP3 Gallery Support 2 type of audio player. Go to plugin page and open it you will find all options there.<br />Thanks for yousing Simple MP3 Gallery!</description>
+    <license>http://www.gnu.org/licenses/old-licenses/gpl-2.0.html GNU/GPL</license>
+<files>
+<filename plugin="mp3gallery">mp3gallery.php</filename>
+<folder>mp3gallery/</folder>
+</files>
+	<params>
+		<param name="sortBy" type="radio" default="1" label="Sort Filenames" description="Sort by filename Ascending or Desending">
+ 			<option value="1">Ascending</option>
+ 			<option value="0">Descending</option>
+ 		</param>
+ 		<param name="@spacer" type="spacer" default="" label="" description="" />
+ 
+ 		<param name="nameHeaderText" type="text" size="12" default="Name" label="Name Header Text" description="Enter the text for the name column header" />
+     	<param name="playHeaderText" type="text" size="12" default="Play" label="Play Header" description="Enter the text for the play column header" />
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		
+		<param name="playerWidth" type="text" default="300" label="Player Width" description="Enter Only Number. Don't include px" />
+		<param name="playerHeight" type="text" default="40" label="Plaher Height" description="Enter Only Number. For google player standard height is 27" />
+		<param name="playFirst" type="radio" default="1" label="Play First Audio" description="Play First Mp3">
+			<option value="1">Yes</option>
+			<option value="0">No</option>
+		</param>
+		
+		<param name="player" type="list" default="sap" label="Select Audio Player" description="Select a audio player">
+			<option value="sap">Simple Audio Player</option>
+			<option value="gap">Google Audio Player</option>
+			<!--<option value="jwp">JW Player</option>-->
+		</param>
+		
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="leftBg" type="text" default="565656" label="Left Background" description="Left Background" />
+		<param name="leftIcon" type="text" default="ffffff" label="Left Icon" description="Left Icon" />
+		<param name="rightBg" type="text" default="434343" label="Right Background" description="Right Background" />
+		<param name="rightBgHover" type="text" default="74afe6" label="Righr Bg Hover" description="Right Bckground Hover" />
+		<param name="rightIcon" type="text" default="666666" label="Right Icon" description="Right Icon" />
+		<param name="rightIconHover" type="text" default="ffffff" label="Right Icon Hover" description="Right Icon Hover" />
+		<param name="text" type="text" default="2565a1" label="Text" description="Text" />
+		<param name="track" type="text" default="ffffff" label="Track" description="Track Background" />
+		<param name="border" type="text" default="8a8a8a" label="Border" description="Border" />
+		<param name="loader" type="text" default="2565a1" label="Loader" description="Loader" />
+		<param name="shuffle" type="radio" default="1" label="Shuffle" description="Will the audio file repeat automatically?">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+               
+ </params>
+</install>

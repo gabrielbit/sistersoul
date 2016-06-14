@@ -1,0 +1,9 @@
+table.mp3gallery{
+	border:none; 
+	border-collapse:collapse; 
+	text-align:left;
+	width:100%;
+}
+table.mp3gallery th{background: #eee; color:fff;}
+table.mp3gallery tr.odd{background:#fff;}
+table.mp3gallery tr.even{background: #f8f8f8;}

@@ -1,0 +1,107 @@
+/**
+ * @package 	Qloginpopup for Joomla! 1.5
+ * @version 	$Id: qloginpopup.css.php 002 2010-12-07 02:26:33Z NetQ $
+ * @author 		NETQ CREATIVE SOFTWARE (service@netqcreative.com)
+ * @copyright 	Copyright (C) 2010 - NETQ CREATIVE SOFTWARE
+ * @license 	GNU/GPL http://www.gnu.org/copyleft/gpl.html
+ */
+#sbox-window{
+	background: none! important;
+	background-image: url('../images/loginf1.png') !important;
+	background-repeat: no-repeat;
+	width: 225px;
+	height: 350px;
+}
+#sbox-btn-close{
+	right: 10px !important;
+	top: 10px !important;
+}
+#helpdiv{
+	margin-left: 10px;
+	_margin-left: 5px;
+	margin-right: 10px;
+	_margin-right: 5px;
+}
+#loginbt{
+	background: url('../images/login.png') no-repeat;
+	width: 145px;
+	height: 28px;
+}
+#alg{
+	margin: 0px auto;
+	width: 145px;
+}
+.text-login {
+	text-align: center !important;
+}
+.text-login a{
+	font-family: tahoma;
+	font-size: 13px;
+	font-weight: bold !important;
+	text-transform: capitalize;
+	color: #FFF !important;
+	line-height: 25px;
+	display: block;
+}
+.text-login a:hover{
+	font-family: tahoma;
+	font-size: 13px;
+	font-weight: bold;
+	text-transform: capitalize;
+	text-decoration: none;
+	color: #FFF;
+}
+.btlo{
+	background: url('../images/logout.png') no-repeat;
+	width: 145px;
+	height: 28px;
+	border: none;
+	font-family: tahoma;
+	font-size: 13px;
+	font-weight: bold;
+	text-transform: capitalize;
+}
+#helpdiv form #title{
+	font-family: tahoma;
+	font-size: 17px;
+	font-weight: bold;
+	margin-top: 3px;
+	color: #333333;
+}
+#helpdiv form div.ip{
+	font-family: tahoma;
+	font-size: 13px;
+	margin: 0px auto 0px auto;
+	margin-top: 12px;
+	color: #333333;
+}
+#helpdiv form input.ipbox{
+	width: 93%;
+}
+#helpdiv form input.bt{
+	background: url('../images/login1.jpg') no-repeat;
+	width: 67px;
+	height: 21px;
+	border: none;
+	color: #333333;
+}
+
+#helpdiv form ul.fx{
+	list-style: none;
+	font-family: tahoma;
+	font-size: 13px;
+	padding-left: 0px;
+	margin-left: 0px;
+}
+#helpdiv form ul.fx li{
+	background-image: none;
+	padding-left: 0px;
+	margin-top: 10px;
+}
+#helpdiv form ul.fx li a{
+	text-decoration: none;
+	color: #83AD46;
+}
+#helpdiv form ul.fx li a:hover, a:active, a:focus {
+	color: #000;
+}

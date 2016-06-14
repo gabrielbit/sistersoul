@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/denvideo/!svn/ver/26/trunk/mod_denvideo/tmpl
+END
+default.php
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/denvideo/!svn/ver/26/trunk/mod_denvideo/tmpl/default.php
+END
+index.html
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/denvideo/!svn/ver/10/trunk/mod_denvideo/tmpl/index.html
+END
+_error.php
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/denvideo/!svn/ver/10/trunk/mod_denvideo/tmpl/_error.php
+END

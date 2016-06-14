@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install version="1.5" type="plugin" group="content" method="upgrade">
+  <name>Content - JFUploader</name>
+  <creationDate>Feb 2012</creationDate>
+  <author>Michael Dempfle</author>
+  <copyright>This plugin is freeeware</copyright>
+  <authorEmail>jfu@mdempfle.de</authorEmail>
+  <authorUrl>jfu.tinywebgallery.com</authorUrl>
+  <version>2.16</version>
+  <license>GNU GPL</license>
+  <description>PLG_CONTENT_JFUPLOADER_XML_DESCRIPTION</description>
+  <files>
+    <filename plugin="jfuploader">jfuploader.php</filename>
+    <filename>readme.txt</filename>
+    <filename>license.txt</filename>
+    <filename>index.html</filename>
+  </files>
+      <languages folder="language">
+        <!--
+              these files will be installed in the administrator/language folder.
+          -->
+        <language tag="en-GB">en-GB/en-GB.plg_content_jfuploader.ini</language>
+        <language tag="de-DE">de-DE/de-DE.plg_content_jfuploader.ini</language>
+    </languages>
+
+</install>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+ <layout title="Smartnewsletters">
+  <message>Exhaustive list of smartnewsletters.</message>
+ </layout>
+ <url>
+   <param name="act" type="text" default="mailing" label="Action" description=""/>
+   <param name="listype" type="text" default="7" label="Mailing Type" description=""/>
+  </url>
+ 
+ <fields name="request">
+  <fieldset name="request" addfieldpath="components/com_jnews">
+   <field name="act" type="text" default="mailing" label="Action" description=""/>
+  </fieldset>
+ </fields>
+</metadata>

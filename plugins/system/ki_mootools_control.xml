@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install version="1.5" type="plugin" group="system">
+	<name>System - Ki - Mootools Control</name>
+	<creationDate>03/2009</creationDate>
+	<author>Kinesphère</author>
+	<authorEmail>contact@kinesphere.fr</authorEmail>
+	<authorUrl>http://www.kinesphere.fr</authorUrl>
+	<copyright>This extension in released under the GNU/GPL License - http://www.gnu.org/copyleft/gpl.html</copyright>
+	<version>0.1</version>
+	<description>KI_MOOTOOLS_CONTROL_DESC</description>
+	
+	<params>
+		<param name="ki_mootools_control_mootools" type="radio" default="0" label="KI_MOOTOOLS_CONTROL_MOOTOOLS" description="KI_MOOTOOLS_CONTROL_MOOTOOLS_DESC" >
+			<option value="1">Yes</option>
+			<option value="0">No</option>
+		</param>	
+   		<param name="ki_mootools_control_caption" type="radio" default="0" label="KI_MOOTOOLS_CONTROL_CAPTION" description="KI_MOOTOOLS_CONTROL_CAPTION_DESC" >
+			<option value="1">Yes</option>
+			<option value="0">No</option>
+		</param>
+		<param name="ki_mootools_control_remp" type="radio" default="0" label="KI_MOOTOOLS_CONTROL_REMP" description="KI_MOOTOOLS_CONTROL_REMP_DESC" >
+			<option value="1">Yes</option>
+			<option value="0">No</option>
+		</param>	
+		<param name="ki_mootools_control_ch_mootools" type="text" default="media/mootools.js" label="KI_MOOTOOLS_CONTROL_DOSSIER" description="KI_MOOTOOLS_CONTROL_DOSSIER_DESC" />
+	</params>
+  
+	<files>
+    	<filename plugin="ki_mootools_control">ki_mootools_control.php</filename>
+	</files>
+  <languages>
+    <language tag="en-GB">language/en-GB/en-GB.plg_system_ki_mootools_control.ini</language>
+    <language tag="fr-FR">language/fr-FR/fr-FR.plg_system_ki_mootools_control.ini</language>    
+  </languages>	
+
+</install>

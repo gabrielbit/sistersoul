@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install SYSTEM "http://dev.joomla.org/xml/1.5/component-install.dtd">
+<install type="component" version="1.5.0">
+	<name>Simple SWFupload</name>
+	<creationDate>Apr 2010</creationDate>
+	<author>Gary Teh</author>
+	<authorEmail>garyjob@name1price.com</authorEmail>
+	<authorUrl>http://name1price.com</authorUrl>
+	<copyright>(C) 2010 All rights reserved.</copyright>
+	<license>GNU/GPL</license>
+	<!--  The version string is recorded in the components table -->
+	<version>1.0.0</version>
+	<!-- The description is optional and defaults to the name -->
+<description><![CDATA[This component demostrates a work around for integrating the SWFupload library into the Joomla 1.5 Content Management System. This component allows users to upload files of any type except .PHP files for security purposes. The document is automatically uploaded to location /images/stories/]]></description> 
+<!-- Site Main File Copy Section-->
+<files>
+	<filename>index.html</filename>
+	<filename>simpleswfupload.php</filename>
+</files>
+
+
+<!-- Site Main Language File Copy Section -->
+<languages>
+</languages>
+
+
+<administration>
+<!-- Site Main File Copy Section-->
+<files folder="admin">
+	<filename>/admin.simpleswfupload.html.php</filename>
+	<filename>/admin.simpleswfupload.php</filename>
+	<filename>assets/jquery/interface.js</filename>
+	<filename>assets/jquery/jquery-superbox-0.9.1/MIT-LICENSE.txt</filename>
+	<filename>assets/jquery/jquery.color.dev.js</filename>
+	<filename>assets/jquery/jquery.color.js</filename>
+	<filename>assets/jquery/jquery.form.dev.js</filename>
+	<filename>assets/jquery/jquery.form.js</filename>
+	<filename>assets/jquery/jquery.hotkeys.dev.js</filename>
+	<filename>assets/jquery/jquery.hotkeys.js</filename>
+	<filename>assets/jquery/jquery.js</filename>
+	<filename>assets/jquery/jquery.lightbox-0.5.css</filename>
+	<filename>assets/jquery/jquery.lightbox-0.5.js</filename>
+	<filename>assets/jquery/jquery.schedule.js</filename>
+	<filename>assets/jquery/jquery.table-hotkeys.dev.js</filename>
+	<filename>assets/jquery/jquery.table-hotkeys.js</filename>
+	<filename>assets/jquery/suggest.dev.js</filename>
+	<filename>assets/jquery/suggest.js</filename>
+	<filename>assets/jquery/ui.core.js</filename>
+	<filename>assets/jquery/ui.dialog.js</filename>
+	<filename>assets/jquery/ui.draggable.js</filename>
+	<filename>assets/jquery/ui.droppable.js</filename>
+	<filename>assets/jquery/ui.resizable.js</filename>
+	<filename>assets/jquery/ui.selectable.js</filename>
+	<filename>assets/jquery/ui.sortable.js</filename>
+	<filename>assets/jquery/ui.tabs.js</filename>
+	<filename>assets/swfupload/core/Core Changelog.txt</filename>
+	<filename>assets/swfupload/core/Documentation/index.html</filename>
+	<filename>assets/swfupload/core/Flash/deploy.bat</filename>
+	<filename>assets/swfupload/core/Flash/ExternalCall.as</filename>
+	<filename>assets/swfupload/core/Flash/FileItem.as</filename>
+	<filename>assets/swfupload/core/Flash/obj/SWFUpload-v2Config.old</filename>
+	<filename>assets/swfupload/core/Flash/obj/SWFUpload-v2Config.xml</filename>
+	<filename>assets/swfupload/core/Flash/SWFUpload v2.as3proj</filename>
+	<filename>assets/swfupload/core/Flash/SWFUpload.as</filename>
+	<filename>assets/swfupload/core/Flash/swfupload.swf</filename>
+	<filename>assets/swfupload/core/plugins/SWFObject License.txt</filename>
+	<filename>assets/swfupload/core/plugins/swfupload.cookies.js</filename>
+	<filename>assets/swfupload/core/plugins/swfupload.queue.js</filename>
+	<filename>assets/swfupload/core/plugins/swfupload.speed.js</filename>
+	<filename>assets/swfupload/core/plugins/swfupload.swfobject.js</filename>
+	<filename>assets/swfupload/core/swfupload license.txt</filename>
+	<filename>assets/swfupload/core/swfupload.js</filename>
+	<filename>assets/swfupload/default.css</filename>
+	<filename>assets/swfupload/fileprogress.js</filename>
+	<filename>assets/swfupload/handlers.js</filename>
+	<filename>assets/swfupload/swfupload.js</filename>
+	<filename>assets/swfupload/swfupload.queue.js</filename>
+	<filename>assets/swfupload/swfupload.swf</filename>
+	<filename>assets/swfupload/upload.png</filename>
+	<filename>/configuration.php</filename>
+	<filename>/controller.php</filename>
+	<filename>/file_uploader.php</filename>
+	<filename>/index.html</filename>
+	<filename>/simpleswfupload.php</filename>
+	<filename>/toolbar.simpleswfupload.html.php</filename>
+	<filename>/toolbar.simpleswfupload.php</filename>
+	<filename>/uploadhandler.php</filename>
+</files>
+
+
+<!-- Administration Language File Copy Section -->
+<languages folder="admin">
+	</languages>
+
+
+<menu>Simple SWFupload</menu> 
+</administration>
+</install>

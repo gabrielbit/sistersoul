@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+Installation manifest file and template configuration definitions
+-->
+<install version="1.5" type="template">
+    
+    <!--
+    General information about the template
+    -->
+    <name>J960</name>
+    <version>1.0</version>
+    <creationDate>August 2009</creationDate>
+    <author>James Kennard</author>
+    <authorEmail>james@webamoeba.co.uk</authorEmail>
+    <authorUrl>www.webamoeba.co.uk</authorUrl>
+    <copyright>www.webamoeba.co.uk</copyright>
+    <license>GNU GPL and MIT and SXC Royalty Free</license>
+    <description>960 Grid System CSS Framework template for Joomla! template designers.</description>
+    
+    <!--
+    Template files
+    -->
+    <files>
+        <filename>index.html</filename>
+        <filename>index.php</filename>
+        <filename>component.php</filename>
+        <filename>template_thumbnail.png</filename>
+        <filename>templateDetails.xml</filename>
+        <filename>params.ini</filename>
+        <folder>images</folder>
+        <folder>css</folder>
+        <folder>html</folder>
+    </files>
+    
+    <!--
+    Language Files - these contain the translations for the 
+    template parameters
+    -->
+    <administration>
+        <languages folder="adminlang">
+            <language tag="en-GB">en-GB.tpl_j960.ini</language>
+        </languages>
+    </administration>
+    
+    <!--
+    Each position name represents an area within the template 
+    where Joomla! modules can be placed.
+    -->
+    <positions>
+        <position>left</position>
+        <position>right</position>
+        <position>menu</position>		
+        <position>top</position>
+        <position>user1</position>
+        <position>user2</position>
+        <position>user3</position>
+        <position>user4</position>
+        <position>user5</position>
+        <position>footer</position>		
+		<position>imagenes-eventos</position>		
+		<position>user1H</position>		
+		<position>user2H</position>
+		<position>user3H</position>
+		<position>user4H</position>		
+		<position>user4N</position>
+		<position>textoBanner</position>
+		<position>newsletterInterno</position>
+    </positions>
+    
+    <!--
+    Configuration options available for the template.
+    -->
+    <params>
+        <param name="hideInformation" type="radio" default="0" label="HIDE INFORMATION" description="HIDE INFORMATION DESCRIPTION">
+            <option value="1">Yes</option>
+            <option value="0">No</option>
+        </param>
+        <param name="leftPositionWidth" type="radio" default="3" label="LEFT POSITION" description="LEFT POSITION DESCRIPTION">
+            <option value="2">SMALL</option>
+            <option value="3">MEDIUM</option>
+            <option value="4">LARGE</option>
+        </param>
+        <param name="rightPositionWidth" type="radio" default="3" label="RIGHT POSITION" description="RIGHT POSITION DESCRIPTION">
+            <option value="2">SMALL</option>
+            <option value="3">MEDIUM</option>
+            <option value="4">LARGE</option>
+        </param>
+    </params>
+    
+</install>
